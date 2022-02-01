@@ -1,8 +1,8 @@
 import cv2
 import keyboard
 
-cas_face = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
-cas_eye = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_eye.xml')
+cas_face = cv2.CascadeClassifier(cv2.data.haarcascades + 'C:\\Python Project\\face_detection\\haarcascade_frontalface_default.xml')
+cas_eye = cv2.CascadeClassifier(cv2.data.haarcascades + 'C:\\Python Project\\face_detection\\haarcascade_eye.xml')
 
 cam = cv2.VideoCapture(0,cv2.CAP_DSHOW) #내장 웹캠으로 설정
 
